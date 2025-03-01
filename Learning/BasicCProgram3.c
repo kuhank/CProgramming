@@ -4,8 +4,15 @@ void pointersExplanation() {
     int num;
     printf("enter a number: ");
     scanf("%d",&num);
+
     int *ptr = &num;
 
+    /* ====alternative====
+    int *ptr;
+    ptr = &num
+    *ptr= dereference operation
+    */
+    
     printf("Value of num: %d\n", num);
     printf("Address of num: %p\n", &num);
     printf("Pointer ptr stores address: %p\n", ptr);

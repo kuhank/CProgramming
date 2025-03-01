@@ -160,8 +160,8 @@ get inputs for all kinds of data types
 char, float, string...
 print all those values
 pre, post inclrements/decrements
-
 sum of digits of a number
 1234
 1+2+3+4 =10
+
 */
